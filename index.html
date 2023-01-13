@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" name="description aqui se escribe la descripcion de la pagina" content="IE=edge">
+
+
+    <title>Nogales de la Florida</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0070743294.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <img src="img/horizo_logonogalesw.png" class="logo">
+            </a>
+            <nav>
+                <a href="#inicio">NOSOTROS</a>
+                <a href="#nosotros">PROYECTOS</a>
+                <a href="#servicios">BLOG</a>
+                <a href="#contactenos">CONTÁCTANOS</a>
+            </nav>
+            <a href="#" class="hamb"><i class="fa-solid fa-bars"></i></a>
+
+        </div>
+    </header>
+    <main class="bg">
+        <section id="inicio">
+            <div class="formulario">
+                <h3>Para mayor información sobre el proyecto en venta y planes de financiación</h3>
+                <h2>Envianos tus datos!</h2>
+                <form>
+
+                    <input id="iname" type="text" name="name" value="Nombre Completo">
+                    <input id="itelefono" type="text" name="telefono" value="Contacto">
+                    <input id="icorreo" type="email" name="correo" value="Correo Electronico">
+                    <h3>Como te enteraste?</h3>
+
+                    <select id="se-entero">
+                        <option value="0">Seleccione uno:</option>
+                        <option value="1">Facebook</option>
+                        <option value="2">Instagram</option>
+                        <option value="3">Email</option>
+                        <option value="4">Llamada</option>
+
+                    </select>
+                    <br>
+                    <input id="ipoliticas" type="checkbox" name="politicas" checked>
+                    <label for="ipoliticas">Acepto politicas de tratamiento de datos</label>
+                    <a href="#enviar" class="boton boton-rojo">ENVIAR</a>
+                </form>
+            </div>
+
+            <div class="precio">
+                <div class="container">
+                    <div class="row">
+                        <div class="columna columna-25 columna-mobile-100">
+                            <h3>Precios desde</h3>
+                            <h1>$160.000.000</h1>
+                        </div>
+                        <div class="columna columna-25 columna-mobile-100">
+                            <h3>Apartamentos</h3>
+                            <h1>de 3 Habitaciones</h1>
+                        </div>
+                        <div class="columna columna-25 columna-mobile-100">
+                            <h3>Área Construida</h3>
+                            <h1>62.32mts<sup>2</sup></h1>
+                        </div>
+                        <div class="columna columna-25 columna-mobile-100">
+                            <a href="#nosotros" class="boton boton-rojo">Avance de Obra</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <img src="img/slideh.jpg">
+
+            <div class="bloque-inicio">
+                <h1>Nogales de la Florida</h1>
+                <p>Mas que un sueño, una realidad
+                    Apartamentos en Tunja - Boyacá NO VIS.</p>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="ContainerCenter">
+                    <!-- Radio Seleccionar -->
+                    <input type="radio" name="Carrusel" style="display: none" id="Slider1" checked>
+                    <input type="radio" name="Carrusel" style="display: none" id="Slider2">
+                    <input type="radio" name="Carrusel" style="display: none" id="Slider3">
+
+                    <div class="Carrusels">
+                        <!-- Imagen contenido -->
+                        <div class="Carrusel"></div>
+                        <div class="Carrusel"></div>
+                        <div class="Carrusel"></div>
+
+                        <!-- Flechas a la izquierda por cada imagen -->
+                        <label for="Slider3" class="ArrowLeft Arrow1">❮</label>
+                        <label for="Slider1" class="ArrowLeft Arrow2">❮</label>
+                        <label for="Slider2" class="ArrowLeft Arrow3">❮</label>
+
+                        <!-- Flechas a la derecha por cada imagen -->
+                        <label for="Slider2" class="ArrowRight Arrow1">❯</label>
+                        <label for="Slider3" class="ArrowRight Arrow2">❯</label>
+                        <label for="Slider1" class="ArrowRight Arrow3">❯</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="titulo_diseño">- DISEÑO APARTAMENTOS</h2>
+            <div class="boton_centrado">
+                <button onclick='tipo("img/img_tipo.png")' class="boton boton-azul">TIPO</button>
+                <button onclick='planta("img/img_planta.png")' class="boton boton-azul">PLANTA</button>
+                <button onclick='zona("img/img_zona.png")' class="boton boton-azul">ZONIFICACIÓN</button>
+            </div>
+            <div>
+                <img id="imagen-cambio" src="img/img_planta.png" alt="" class="diseño_imagen" />
+                <div class="diseño_texto" id="texto-cambio">
+                    <div id="ocultar">
+                        <h3>Planta Arquitectónica 2 <br />Piso Tipo</h3>
+                        <p>
+                            Cada torre tiene 16 parqueaderos cubiertos en el nivel de sótano,
+                            con una excelente iluminación y ventilación. Son estacionamientos
+                            en paralelo (sin ningún tipo de servidumbre), con dimensiones de
+                            2.35 mts por 5 mts, con acceso directo desde el ascensor y la
+                            escalera, permitiendo comodidad y funcionalidad.
+                            <br /><br />Únicos en el sector con area <br />construida de:
+                        </p>
+                        <h2>62.32 m²</h2>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h6>*informacion ilustrativa sujeta a cambios.</h6>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="acabados">
+                <div class="row">
+                    <div class="columna columna-50 columna-mobile-100">
+                        <h3>Compra tu apartamento en Nogales de la Florida con: </h3>
+                        <h2>* ACABADOS ESTANDAR</h2>
+                        <h2>* ACABADOS PREMIUM</h2>
+                        <h2>* PARQUEADEROS INTERNO O EXTERNO</h2>
+                        <h5>* Acabados con costo adicional</h5>
+                    </div>
+                    <div class="columna columna-50 columna-mobile-100">
+                        <h3>Área Construida</h3>
+                        <h1>62.32mts<sup>2</sup></h1>
+                        <h5>* Unicos en el sector</h5>
+                        <a href="#nosotros" class="boton boton-rojo">Avance de Obra</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section>
+            <div class="ventajasybeneficios">
+                <div class="row">
+                    <div class="columna columna-50 columna-mobile-100">
+                        <div class="ventajas">
+                            <h3>Ventajas de </h3>
+                            <h2>Nogales de la Florida</h2>
+                            <h2><img src="img/1conjunto.png">Conjunto Cerrado</h2>
+                            <h2><img src="img/2ascensor.png">Ascensor desde el sótano</h2>
+                            <h2><img src="img/3costo.png">Excelente relación costo beneficio</h2>
+                            <h2><img src="img/4vias.png">Ubicado entre importantes vias de la ciudad</h2>
+                            <h2><img src="img/5comercial.png">Cerca al nuevo Centro Comercial</h2>
+                            <h2><img src="img/6desarrollo.png">Sector de gran desarrollo</h2>
+                            <h2><img src="img/7colegios.png">Cerca a reconocidos Colegios</h2>
+                        </div>
+                    </div>
+                    <div class="columna columna-50 columna-mobile-100 bg-beneficios">
+                        <h3>Disfruta de estos y muchos más beneficios aqui en Nogales de la Florida</h3>
+                        <div class="beneficios">
+
+                            <div class="grid-icono icono-beneficio1"><img src="img/1beneficios.png">
+                                <p class="texto-beneficios">Espacios iluminados naturalmente</p>
+                            </div>
+                            <div class="grid-icono icono-beneficio2"><img src="img/2beneficios.png">
+                                <p class="texto-beneficios">Ascensor desde el sótano</p>
+                            </div>
+                            <div class="grid-icono icono-beneficio3"><img src="img/3beneficios.png">
+                                <p class="texto-beneficios">Parqueaderos en sótanos y externos</p>
+                            </div>
+                            <div class="grid-icono icono-beneficio4"><img src="img/4beneficios.png">
+                                <p class="texto-beneficios">Dos salones sociales</p>
+                            </div>
+                            <div class="grid-icono icono-beneficio5"><img src="img/5beneficios.png">
+                                <p class="texto-beneficios">BBQ</p>
+                            </div>
+                            <div class="grid-icono icono-beneficio6"><img src="img/6beneficios.png">
+                                <p class="texto-beneficios">Terraza</p>
+                            </div>
+                            <div class="grid-icono icono-beneficio7"><img src="img/7beneficios.png">
+                                <p class="texto-beneficios">Dos porterías</p>
+                            </div>
+                            <div class="grid-icono icono-beneficio8"><img src="img/8beneficios.png">
+                                <p class="texto-beneficios">Parque infantil</p>
+                            </div>
+                            <div class="grid-icono icono-beneficio9"><img src="img/9beneficios.png">
+                                <p class="texto-beneficios">Espacio para gimnasio</p>
+                            </div>
+                            <div class="grid-icono icono-beneficio9"><img src="img/10beneficios.png">
+                                <p class="texto-beneficios">Amplias zonas verdes</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+        <section id="contactenos" class="seccionmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4803.895926857101
+            !2d-73.36891619322185!3d5.513686554877963!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a7d
+            dfab31361f%3A0x8529b04ebd8e6c03!2sConjunto%20Residencial%20Nogales%20de%20la%20Flor
+            ida!5e1!3m2!1ses!2sco!4v1673621285794!5m2!1ses!2sco" 
+            style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <section>
+            <div class=""><h1>APARTAMENTOS EN VENTA</h1></div>
+
+
+            <div id="unidadesenventa"  class="disponibilidad">
+                
+                <div class="bloque1">
+                    <div class="box piso">Piso 9</div>
+                    <div class="box vendido">901</div>
+                    <div class="box vendido">902</div>
+                    <div class="box vendido">903</div>
+                    <div class="box vendido">904</div>
+
+                    <div class="box piso">Piso 8</div>
+                    <div class="box vendido">801</div>
+                    <div class="box vendido">802</div>
+                    <div class="box vendido">803</div>
+                    <div class="box disponible">804</div>
+                
+                    <div class="box piso">Piso 7</div>
+                    <div class="box disponible">701</div>
+                    <div class="box disponible">702</div>
+                    <div class="box vendido">703</div>
+                    <div class="box disponible">704</div>
+                
+                    <div class="box piso">Piso 6</div>
+                    <div class="box vendido">601</div>
+                    <div class="box vendido">602</div>
+                    <div class="box vendido">603</div>
+                    <div class="box disponible">604</div>
+                
+                    <div class="box piso">Piso 5</div>
+                    <div class="box disponible">501</div>
+                    <div class="box vendido">502</div>
+                    <div class="box disponible">503</div>
+                    <div class="box disponible">504</div>
+                
+                    <div class="box piso">Piso 4</div>
+                    <div class="box disponible">401</div>
+                    <div class="box vendido">402</div>
+                    <div class="box vendido">403</div>
+                    <div class="box vendido">404</div>
+                
+                    <div class="box piso">Piso 3</div>
+                    <div class="box vendido">301</div>
+                    <div class="box vendido">302</div>
+                    <div class="box vendido">303</div>
+                    <div class="box disponible">304</div>
+                
+                    <div class="box piso">Piso 2</div>
+                    <div class="box disponible">201</div>
+                    <div class="box vendido">202</div>
+                    <div class="box vendido">203</div>
+                    <div class="box disponible">204</div>
+                
+                    <div class="box piso">Piso 1</div>
+                    <div class="box disponible">101</div>
+                    <div class="box disponible">102</div>
+                    <div class="box vendido">103</div>
+                    <div class="box disponible">104</div>
+
+                    
+                </div>
+
+                <div class="bloque2">
+                    <div class="box piso">Piso 9</div>
+                    <div class="box vendido">901</div>
+                    <div class="box vendido">902</div>
+                    <div class="box vendido">903</div>
+                    <div class="box vendido">904</div>
+                
+                    <div class="box piso">Piso 8</div>
+                    <div class="box vendido">801</div>
+                    <div class="box vendido">802</div>
+                    <div class="box vendido">803</div>
+                    <div class="box disponible">804</div>
+                
+                    <div class="box piso">Piso 7</div>
+                    <div class="box disponible">701</div>
+                    <div class="box disponible">702</div>
+                    <div class="box vendido">703</div>
+                    <div class="box disponible">704</div>
+                
+                    <div class="box piso">Piso 6</div>
+                    <div class="box vendido">601</div>
+                    <div class="box vendido">602</div>
+                    <div class="box vendido">603</div>
+                    <div class="box disponible">604</div>
+                
+                    <div class="box piso">Piso 5</div>
+                    <div class="box disponible">501</div>
+                    <div class="box vendido">502</div>
+                    <div class="box disponible">503</div>
+                    <div class="box disponible">504</div>
+                
+                    <div class="box piso">Piso 4</div>
+                    <div class="box disponible">401</div>
+                    <div class="box vendido">402</div>
+                    <div class="box vendido">403</div>
+                    <div class="box vendido">404</div>
+                
+                    <div class="box piso">Piso 3</div>
+                    <div class="box vendido">301</div>
+                    <div class="box vendido">302</div>
+                    <div class="box vendido">303</div>
+                    <div class="box disponible">304</div>
+                
+                    <div class="box piso">Piso 2</div>
+                    <div class="box disponible">201</div>
+                    <div class="box vendido">202</div>
+                    <div class="box vendido">203</div>
+                    <div class="box disponible">204</div>
+                
+                    <div class="box piso">Piso 1</div>
+                    <div class="box disponible">101</div>
+                    <div class="box disponible">102</div>
+                    <div class="box vendido">103</div>
+                    <div class="box disponible">104</div>
+
+                    
+                </div>
+        
+            </div>
+        </section>
+
+        <section>
+            <div class="">
+                <div class=""><h1>AVANCES DE OBRA</h1></div>
+                
+
+                
+
+
+            </div>
+        </section>
+
+        
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="columna columna-25 columna-mobile-100">
+                    <img src="img/logo-blanco.png" class="logo-footer">
+                    <p>All the Lorem Ipsum generators on the Internet tend to repeat
+                        predefined chunks as necessary, making this the first true </p>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>temas relacionados</h3>
+                    <ul>
+                        <li> <a href="#">Tema 1</a> </li>
+                        <li> <a href="#">Tema 2</a></li>
+                        <li><a href="#">Tema 3</a> </li>
+                    </ul>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>Datos de contacto</h3>
+                    <ul>
+                        <li>juanko6@gmail.com </li>
+                        <li>+51 3137229239</li>
+                        <li>Tulua, Valle del Cauca <br> Colombia </li>
+                    </ul>
+                </div>
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>Redes sociales</h3>
+                    <ul class="redes">
+                        <li> <a href="#"><i class="fa-brands fa-facebook-f"></i></a> </li>
+                        <li> <a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li> <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="barra-footer">
+            &copy; Derechos Reservados 2022
+        </div>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/funciones.js"></script>
+</body>
+
+</html>

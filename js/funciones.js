@@ -52,3 +52,46 @@ function zona(imagen) {
   divimagen.src = imagen;
 
 }
+
+var etapa_1 = document.getElementById("etapa1");
+var etapa_2 =document.getElementById("etapa3");
+var etapa_3 =document.getElementById("etapa4");
+var etapa_4 =document.getElementById("etapa5");
+
+
+function bloque1(){
+  etapa_1.style.visibility = 'visible';
+  etapa_2.style.visibility = 'hidden';
+  etapa_3.style.visibility = 'hidden';
+  etapa_4.style.visibility = 'hidden';
+}
+
+
+function bloque2(){
+  etapa_1.style.visibility = 'hidden';
+  etapa_2.style.visibility = 'visible';
+  etapa_3.style.visibility = 'hidden';
+  etapa_4.style.visibility = 'hidden';
+
+}
+
+
+function bloque3(){
+  etapa_1.style.visibility = 'hidden';
+  etapa_2.style.visibility = 'hidden';
+  etapa_3.style.visibility = 'visible';
+  etapa_4.style.visibility = 'hidden';
+  
+}
+
+
+function bloque4(){
+  etapa_1.style.visibility = 'hidden';
+  etapa_2.style.visibility = 'hidden';
+  etapa_3.style.visibility = 'hidden';
+  etapa_4.style.visibility = 'visible';
+
+}
+
+
+

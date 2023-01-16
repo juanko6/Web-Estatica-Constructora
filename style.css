@@ -529,29 +529,7 @@ footer ul
     padding: 0;
 }
 
-.disponibilidad
-{
-    display: grid;
-    
-    grid-template-columns: auto auto ;
-    justify-content: space-evenly;
-    
-}
 
-.bloque1
-{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 10px;
-    
-}
-
-.bloque2
-{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 10px;
-}
 
 .vendido
 {
@@ -569,8 +547,8 @@ footer ul
     place-content: center;
     height: 50px;
     width: 50px;
-    border: 2px solid yellow;
-    color: white;
+    border: 4px solid #2A2222;
+    color: #2A2222;
 
 }
 
@@ -695,22 +673,28 @@ footer ul
     
 }
 
-.unidadetapa
+
+.unidadetapa 
+{   
+    display: grid; 
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;  
+}
+
+
+.bloque
 {
-    position:relative ; 
-}
-
-.bloque1{
-
-}
-.bloque3{
-}
-.bloque4{
-}
-.bloque5{
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    place-items: center;
 }
 
 
+.centrartorre
+{
+    text-align: center;
+}
 
 @media(max-width:767px)
 {

@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/0070743294.js" crossorigin="anonymous"></script>
 </head>
@@ -39,14 +40,15 @@
     <main class="bg">
         <section id="inicio">
             <div class="formulario">
-                <h3>Para mayor información sobre el proyecto en venta y planes de financiación</h3>
-                <h2>Envianos tus datos!</h2>
+                <h3 class="tituloformulario">Para mayor información sobre el proyecto en venta y planes de financiación
+                </h3>
+                <h2 class="tituloenvianos">Envianos tus datos!</h2>
                 <form>
 
-                    <input id="iname" type="text" name="name" value="Nombre Completo">
-                    <input id="itelefono" type="text" name="telefono" value="Contacto">
-                    <input id="icorreo" type="email" name="correo" value="Correo Electronico">
-                    <h3>Como te enteraste?</h3>
+                    <input id="iname" class="letraformulario" type="text" name="name" placeholder="NOMBRE">
+                    <input id="itelefono" class="letraformulario" type="email" name="email" placeholder="EMAIL">
+                    <input id="icorreo" class="letraformulario" type="tel" name="contacto" placeholder="TEL/CEL">
+                    <h3 class="letraenteraste">Como te enteraste?</h3>
 
                     <select id="se-entero">
                         <option value="0">Seleccione uno:</option>
@@ -56,33 +58,36 @@
                         <option value="4">Llamada</option>
 
                     </select>
-                    <br>
-                    <input id="ipoliticas" type="checkbox" name="politicas" checked>
-                    <label for="ipoliticas">Acepto politicas de tratamiento de datos</label>
-                    <a href="#enviar" class="boton boton-rojo">ENVIAR</a>
+                    <div class="politicas">
+                        <input id="ipoliticas" type="checkbox" name="politicas" checked>
+                        <label for="ipoliticas">Acepto <span class="textoazul"> politicas de tratamiento de
+                                datos</span></label>
+                    </div>
+                    <div class="letraenviar">
+                        <a href="#enviar" class="boton boton-azul">ENVIAR</a>
+                    </div>
                 </form>
             </div>
 
             <div class="precio">
-                <div class="container">
-                    <div class="row">
-                        <div class="columna columna-25 columna-mobile-100">
-                            <h3>Precios desde</h3>
-                            <h1>$160.000.000</h1>
-                        </div>
-                        <div class="columna columna-25 columna-mobile-100">
-                            <h3>Apartamentos</h3>
-                            <h1>de 3 Habitaciones</h1>
-                        </div>
-                        <div class="columna columna-25 columna-mobile-100">
-                            <h3>Área Construida</h3>
-                            <h1>62.32mts<sup>2</sup></h1>
-                        </div>
-                        <div class="columna columna-25 columna-mobile-100">
-                            <a href="#nosotros" class="boton boton-rojo">Avance de Obra</a>
-                        </div>
-                    </div>
+                <div>
+                    <h3 class="robotothin">Precios desde</h3>
+                    <h1 class="robototitulo">$160.000.000</h1>
                 </div>
+                <div>
+                    <h3 class="robotothin">Apartamentos de</h3>
+                    <h1 class="robototitulo">3 Habitaciones</h1>
+                </div>
+                <div>
+                    <h3 class="robotothin">Área Construida</h3>
+                    <h1 class="robototitulo">62.32mts<sup>2</sup></h1>
+                </div>
+                <div>
+                    <a href="#nosotros" class="boton2 boton-rojoavance"><h2 class="robotobold">Avance de Obra</h2><img src="img/click-hand.png" class="clickhand"></a>
+                    
+                </div>
+
+
 
             </div>
             <img src="img/slideh.jpg">
@@ -126,7 +131,7 @@
             <div class="boton_centrado">
                 <button onclick='tipo("img/img_tipo.png")' class="boton boton-azul">TIPO</button>
                 <button onclick='planta("img/img_planta.png")' class="boton boton-azul">PLANTA</button>
-                <button  class="boton boton-azul">ZONIFICACIÓN</button>
+                <button class="boton boton-azul">ZONIFICACIÓN</button>
             </div>
             <div>
                 <img id="imagen-cambio" src="img/img_planta.png" alt="" class="diseño_imagen" />
@@ -247,10 +252,10 @@
             <div class="">
                 <h1>APARTAMENTOS EN VENTA</h1>
 
-                <button onclick="bloque1()">ETAPA 1</button>
-                <button onclick="bloque2()">ETAPA 3</button>
-                <button onclick="bloque3()">ETAPA 4</button>
-                <button onclick="bloque4()">ETAPA 5</button>
+                <button onclick="bloque1()" class="boton boton-azul">ETAPA 1</button>
+                <button onclick="bloque2()" class="boton boton-azul">ETAPA 3</button>
+                <button onclick="bloque3()" class="boton boton-azul">ETAPA 4</button>
+                <button onclick="bloque4()" class="boton boton-azul">ETAPA 5</button>
             </div>
 
 
@@ -764,7 +769,7 @@
             </div>
 
 
-            
+
 
         </section>
 

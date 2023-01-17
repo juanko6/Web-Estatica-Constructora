@@ -42,6 +42,7 @@ header .container
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .boton 
@@ -71,11 +72,15 @@ header .container
     height: 35px;
     font-size: 12px;
     font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+    
 }
 
 .boton.boton-azul:hover
 {
     background-color: #2a2222;
+    border-radius: 5px;
 }
 
 .boton.boton-blanco
@@ -231,6 +236,7 @@ h4
     font-size: 15px;
     font-weight: bold;
     border: 1px solid red;
+    
 }
 
 .boton.boton-negro:hover
@@ -694,6 +700,50 @@ footer ul
 .centrartorre
 {
     text-align: center;
+}
+
+
+
+.seccciondiseño{
+    margin-top: 30px;
+    display: grid; 
+    grid-template-columns: auto auto;
+    gap: 10px;
+    
+  
+}
+.centraritems 
+{
+    text-align: center;
+    
+}
+.arriba_texto
+{
+    justify-self: stretch;
+    align-self: stretch;    
+  
+}
+.diseño_texto{
+    margin: 50px;
+    margin-right: 100px;
+     
+}
+.botones
+{
+    margin-left: 20px;
+    margin-right:60px;
+    
+}
+.video
+{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 @media(max-width:767px)

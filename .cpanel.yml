@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/nogalesd/app.nogalesdelaflorida.com/
+    - export DEPLOYPATH=/home2/nogalesd/public_html/portafolio.nogalesdelaflorida.com/
     - /bin/rsync -av /home2/nogalesd/repositories/appnogales/ $DEPLOYPATH

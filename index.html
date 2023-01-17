@@ -238,19 +238,529 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4803.895926857101
             !2d-73.36891619322185!3d5.513686554877963!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a7d
             dfab31361f%3A0x8529b04ebd8e6c03!2sConjunto%20Residencial%20Nogales%20de%20la%20Flor
-            ida!5e1!3m2!1ses!2sco!4v1673621285794!5m2!1ses!2sco" 
-            style="border:0;" allowfullscreen="" 
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            ida!5e1!3m2!1ses!2sco!4v1673621285794!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </section>
 
-        <section>
-            <div class=""><h1>APARTAMENTOS EN VENTA</h1></div>
-            <div class="columnas-centradas-grid">
-                <div class="caja-disponible"></div>
-                <h3>Disponible</h3>
-                <div class="caja-vendida"></div>
-                <h3>Vendido</h3>
+        <section class="">
+            <div class="">
+                <h1>APARTAMENTOS EN VENTA</h1>
+
+                <button onclick="bloque1()">ETAPA 1</button>
+                <button onclick="bloque2()">ETAPA 3</button>
+                <button onclick="bloque3()">ETAPA 4</button>
+                <button onclick="bloque4()">ETAPA 5</button>
+            </div>
+
+
+            <div id="unidadesenventa" class="disponibilidad">
+
+                <div id="etapa1" style="display:none;">
+
+                    <div class="unidadetapa">
+                        <div>
+                            <h2 class="centrartorre">TORRE 1</h2>
+                            <div class="bloque">
+                                <div class="box piso">Piso 9</div>
+                                <div class="box vendido">901</div>
+                                <div class="box vendido">902</div>
+                                <div class="box vendido">903</div>
+                                <div class="box vendido">904</div>
+
+                                <div class="box piso">Piso 8</div>
+                                <div class="box disponible">801</div>
+                                <div class="box vendido">802</div>
+                                <div class="box vendido">803</div>
+                                <div class="box disponible">804</div>
+
+                                <div class="box piso">Piso 7</div>
+                                <div class="box disponible">701</div>
+                                <div class="box disponible">702</div>
+                                <div class="box vendido">703</div>
+                                <div class="box disponible">704</div>
+
+                                <div class="box piso">Piso 6</div>
+                                <div class="box vendido">601</div>
+                                <div class="box vendido">602</div>
+                                <div class="box vendido">603</div>
+                                <div class="box disponible">604</div>
+
+                                <div class="box piso">Piso 5</div>
+                                <div class="box disponible">501</div>
+                                <div class="box vendido">502</div>
+                                <div class="box disponible">503</div>
+                                <div class="box disponible">504</div>
+
+                                <div class="box piso">Piso 4</div>
+                                <div class="box disponible">401</div>
+                                <div class="box vendido">402</div>
+                                <div class="box vendido">403</div>
+                                <div class="box vendido">404</div>
+
+                                <div class="box piso">Piso 3</div>
+                                <div class="box vendido">301</div>
+                                <div class="box vendido">302</div>
+                                <div class="box vendido">303</div>
+                                <div class="box disponible">304</div>
+
+                                <div class="box piso">Piso 2</div>
+                                <div class="box disponible">201</div>
+                                <div class="box vendido">202</div>
+                                <div class="box vendido">203</div>
+                                <div class="box disponible">204</div>
+
+                                <div class="box piso">Piso 1</div>
+                                <div class="box disponible">101</div>
+                                <div class="box disponible">102</div>
+                                <div class="box vendido">103</div>
+                                <div class="box disponible">104</div>
+
+
+                            </div>
+
+                        </div>
+                        <div>
+                            <h2 class="centrartorre">TORRE 2</h2>
+                            <div class="bloque">
+                                <div class="box piso">Piso 9</div>
+                                <div class="box vendido">901</div>
+                                <div class="box vendido">902</div>
+                                <div class="box vendido">903</div>
+                                <div class="box vendido">904</div>
+
+                                <div class="box piso">Piso 8</div>
+                                <div class="box vendido">801</div>
+                                <div class="box vendido">802</div>
+                                <div class="box vendido">803</div>
+                                <div class="box disponible">804</div>
+
+                                <div class="box piso">Piso 7</div>
+                                <div class="box disponible">701</div>
+                                <div class="box disponible">702</div>
+                                <div class="box vendido">703</div>
+                                <div class="box disponible">704</div>
+
+                                <div class="box piso">Piso 6</div>
+                                <div class="box vendido">601</div>
+                                <div class="box vendido">602</div>
+                                <div class="box vendido">603</div>
+                                <div class="box disponible">604</div>
+
+                                <div class="box piso">Piso 5</div>
+                                <div class="box disponible">501</div>
+                                <div class="box vendido">502</div>
+                                <div class="box disponible">503</div>
+                                <div class="box disponible">504</div>
+
+                                <div class="box piso">Piso 4</div>
+                                <div class="box disponible">401</div>
+                                <div class="box vendido">402</div>
+                                <div class="box vendido">403</div>
+                                <div class="box vendido">404</div>
+
+                                <div class="box piso">Piso 3</div>
+                                <div class="box vendido">301</div>
+                                <div class="box vendido">302</div>
+                                <div class="box vendido">303</div>
+                                <div class="box disponible">304</div>
+
+                                <div class="box piso">Piso 2</div>
+                                <div class="box disponible">201</div>
+                                <div class="box vendido">202</div>
+                                <div class="box vendido">203</div>
+                                <div class="box disponible">204</div>
+
+                                <div class="box piso">Piso 1</div>
+                                <div class="box disponible">101</div>
+                                <div class="box disponible">102</div>
+                                <div class="box vendido">103</div>
+                                <div class="box disponible">104</div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="etapa3" style="display:none;">
+                    <div class="unidadetapa">
+
+                        <div>
+                            <h2 class="centrartorre">TORRE 4</h2>
+                            <div class="bloque">
+                                <div class="box piso">Piso 9</div>
+                                <div class="box disponible">901</div>
+                                <div class="box vendido">902</div>
+                                <div class="box vendido">903</div>
+                                <div class="box vendido">904</div>
+
+                                <div class="box piso">Piso 8</div>
+                                <div class="box vendido">801</div>
+                                <div class="box vendido">802</div>
+                                <div class="box vendido">803</div>
+                                <div class="box disponible">804</div>
+
+                                <div class="box piso">Piso 7</div>
+                                <div class="box disponible">701</div>
+                                <div class="box disponible">702</div>
+                                <div class="box vendido">703</div>
+                                <div class="box disponible">704</div>
+
+                                <div class="box piso">Piso 6</div>
+                                <div class="box vendido">601</div>
+                                <div class="box vendido">602</div>
+                                <div class="box vendido">603</div>
+                                <div class="box disponible">604</div>
+
+                                <div class="box piso">Piso 5</div>
+                                <div class="box disponible">501</div>
+                                <div class="box vendido">502</div>
+                                <div class="box disponible">503</div>
+                                <div class="box disponible">504</div>
+
+                                <div class="box piso">Piso 4</div>
+                                <div class="box disponible">401</div>
+                                <div class="box vendido">402</div>
+                                <div class="box vendido">403</div>
+                                <div class="box vendido">404</div>
+
+                                <div class="box piso">Piso 3</div>
+                                <div class="box vendido">301</div>
+                                <div class="box vendido">302</div>
+                                <div class="box vendido">303</div>
+                                <div class="box disponible">304</div>
+
+                                <div class="box piso">Piso 2</div>
+                                <div class="box disponible">201</div>
+                                <div class="box vendido">202</div>
+                                <div class="box vendido">203</div>
+                                <div class="box disponible">204</div>
+
+                                <div class="box piso">Piso 1</div>
+                                <div class="box disponible">101</div>
+                                <div class="box disponible">102</div>
+                                <div class="box vendido">103</div>
+                                <div class="box disponible">104</div>
+
+
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="centrartorre">TORRE 5</h2>
+                            <div class="bloque">
+                                <div class="box piso">Piso 9</div>
+                                <div class="box vendido">901</div>
+                                <div class="box vendido">902</div>
+                                <div class="box vendido">903</div>
+                                <div class="box vendido">904</div>
+
+                                <div class="box piso">Piso 8</div>
+                                <div class="box vendido">801</div>
+                                <div class="box vendido">802</div>
+                                <div class="box vendido">803</div>
+                                <div class="box disponible">804</div>
+
+                                <div class="box piso">Piso 7</div>
+                                <div class="box disponible">701</div>
+                                <div class="box disponible">702</div>
+                                <div class="box vendido">703</div>
+                                <div class="box disponible">704</div>
+
+                                <div class="box piso">Piso 6</div>
+                                <div class="box vendido">601</div>
+                                <div class="box vendido">602</div>
+                                <div class="box vendido">603</div>
+                                <div class="box disponible">604</div>
+
+                                <div class="box piso">Piso 5</div>
+                                <div class="box disponible">501</div>
+                                <div class="box vendido">502</div>
+                                <div class="box disponible">503</div>
+                                <div class="box disponible">504</div>
+
+                                <div class="box piso">Piso 4</div>
+                                <div class="box disponible">401</div>
+                                <div class="box vendido">402</div>
+                                <div class="box vendido">403</div>
+                                <div class="box vendido">404</div>
+
+                                <div class="box piso">Piso 3</div>
+                                <div class="box vendido">301</div>
+                                <div class="box vendido">302</div>
+                                <div class="box vendido">303</div>
+                                <div class="box disponible">304</div>
+
+                                <div class="box piso">Piso 2</div>
+                                <div class="box disponible">201</div>
+                                <div class="box vendido">202</div>
+                                <div class="box vendido">203</div>
+                                <div class="box disponible">204</div>
+
+                                <div class="box piso">Piso 1</div>
+                                <div class="box disponible">101</div>
+                                <div class="box disponible">102</div>
+                                <div class="box vendido">103</div>
+                                <div class="box disponible">104</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="etapa4">
+                    <div class="unidadetapa">
+                        <div>
+                            <h2 class="centrartorre">TORRE 6</h2>
+                            <div class="bloque">
+                                <div class="box piso">Piso 9</div>
+                                <div class="box vendido">901</div>
+                                <div class="box vendido">902</div>
+                                <div class="box vendido">903</div>
+                                <div class="box vendido">904</div>
+
+                                <div class="box piso">Piso 8</div>
+                                <div class="box vendido">801</div>
+                                <div class="box vendido">802</div>
+                                <div class="box vendido">803</div>
+                                <div class="box disponible">804</div>
+
+                                <div class="box piso">Piso 7</div>
+                                <div class="box disponible">701</div>
+                                <div class="box disponible">702</div>
+                                <div class="box vendido">703</div>
+                                <div class="box disponible">704</div>
+
+                                <div class="box piso">Piso 6</div>
+                                <div class="box vendido">601</div>
+                                <div class="box vendido">602</div>
+                                <div class="box vendido">603</div>
+                                <div class="box disponible">604</div>
+
+                                <div class="box piso">Piso 5</div>
+                                <div class="box disponible">501</div>
+                                <div class="box vendido">502</div>
+                                <div class="box disponible">503</div>
+                                <div class="box disponible">504</div>
+
+                                <div class="box piso">Piso 4</div>
+                                <div class="box disponible">401</div>
+                                <div class="box vendido">402</div>
+                                <div class="box vendido">403</div>
+                                <div class="box vendido">404</div>
+
+                                <div class="box piso">Piso 3</div>
+                                <div class="box vendido">301</div>
+                                <div class="box vendido">302</div>
+                                <div class="box vendido">303</div>
+                                <div class="box disponible">304</div>
+
+                                <div class="box piso">Piso 2</div>
+                                <div class="box disponible">201</div>
+                                <div class="box vendido">202</div>
+                                <div class="box vendido">203</div>
+                                <div class="box disponible">204</div>
+
+                                <div class="box piso">Piso 1</div>
+                                <div class="box disponible">101</div>
+                                <div class="box disponible">102</div>
+                                <div class="box vendido">103</div>
+                                <div class="box disponible">104</div>
+
+
+                            </div>
+
+                        </div>
+                        <div>
+                            <h2 class="centrartorre">TORRE 7</h2>
+                            <div class="bloque">
+                                <div class="box piso">Piso 9</div>
+                                <div class="box vendido">901</div>
+                                <div class="box vendido">902</div>
+                                <div class="box vendido">903</div>
+                                <div class="box vendido">904</div>
+
+                                <div class="box piso">Piso 8</div>
+                                <div class="box vendido">801</div>
+                                <div class="box vendido">802</div>
+                                <div class="box vendido">803</div>
+                                <div class="box disponible">804</div>
+
+                                <div class="box piso">Piso 7</div>
+                                <div class="box disponible">701</div>
+                                <div class="box disponible">702</div>
+                                <div class="box vendido">703</div>
+                                <div class="box disponible">704</div>
+
+                                <div class="box piso">Piso 6</div>
+                                <div class="box vendido">601</div>
+                                <div class="box vendido">602</div>
+                                <div class="box vendido">603</div>
+                                <div class="box disponible">604</div>
+
+                                <div class="box piso">Piso 5</div>
+                                <div class="box disponible">501</div>
+                                <div class="box vendido">502</div>
+                                <div class="box disponible">503</div>
+                                <div class="box disponible">504</div>
+
+                                <div class="box piso">Piso 4</div>
+                                <div class="box disponible">401</div>
+                                <div class="box vendido">402</div>
+                                <div class="box vendido">403</div>
+                                <div class="box vendido">404</div>
+
+                                <div class="box piso">Piso 3</div>
+                                <div class="box vendido">301</div>
+                                <div class="box vendido">302</div>
+                                <div class="box vendido">303</div>
+                                <div class="box disponible">304</div>
+
+                                <div class="box piso">Piso 2</div>
+                                <div class="box disponible">201</div>
+                                <div class="box vendido">202</div>
+                                <div class="box vendido">203</div>
+                                <div class="box disponible">204</div>
+
+                                <div class="box piso">Piso 1</div>
+                                <div class="box disponible">101</div>
+                                <div class="box disponible">102</div>
+                                <div class="box vendido">103</div>
+                                <div class="box disponible">104</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="etapa5" style="display:none;">
+
+
+                    <div class="unidadetapa">
+                        <div>
+                            <h2 class="centrartorre">TORRE 8</h2>
+                            <div class="bloque">
+                                <div class="box piso">Piso 9</div>
+                                <div class="box disponible">901</div>
+                                <div class="box disponible">902</div>
+                                <div class="box disponible">903</div>
+                                <div class="box disponible">904</div>
+
+                                <div class="box piso">Piso 8</div>
+                                <div class="box vendido">801</div>
+                                <div class="box vendido">802</div>
+                                <div class="box vendido">803</div>
+                                <div class="box disponible">804</div>
+
+                                <div class="box piso">Piso 7</div>
+                                <div class="box disponible">701</div>
+                                <div class="box disponible">702</div>
+                                <div class="box vendido">703</div>
+                                <div class="box disponible">704</div>
+
+                                <div class="box piso">Piso 6</div>
+                                <div class="box vendido">601</div>
+                                <div class="box vendido">602</div>
+                                <div class="box vendido">603</div>
+                                <div class="box disponible">604</div>
+
+                                <div class="box piso">Piso 5</div>
+                                <div class="box disponible">501</div>
+                                <div class="box vendido">502</div>
+                                <div class="box disponible">503</div>
+                                <div class="box disponible">504</div>
+
+                                <div class="box piso">Piso 4</div>
+                                <div class="box disponible">401</div>
+                                <div class="box vendido">402</div>
+                                <div class="box vendido">403</div>
+                                <div class="box vendido">404</div>
+
+                                <div class="box piso">Piso 3</div>
+                                <div class="box vendido">301</div>
+                                <div class="box vendido">302</div>
+                                <div class="box vendido">303</div>
+                                <div class="box disponible">304</div>
+
+                                <div class="box piso">Piso 2</div>
+                                <div class="box disponible">201</div>
+                                <div class="box vendido">202</div>
+                                <div class="box vendido">203</div>
+                                <div class="box disponible">204</div>
+
+                                <div class="box piso">Piso 1</div>
+                                <div class="box disponible">101</div>
+                                <div class="box disponible">102</div>
+                                <div class="box vendido">103</div>
+                                <div class="box disponible">104</div>
+
+
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="centrartorre">TORRE 9</h2>
+                            <div class="bloque">
+                                <div class="box piso">Piso 9</div>
+                                <div class="box vendido">901</div>
+                                <div class="box vendido">902</div>
+                                <div class="box vendido">903</div>
+                                <div class="box vendido">904</div>
+
+                                <div class="box piso">Piso 8</div>
+                                <div class="box vendido">801</div>
+                                <div class="box vendido">802</div>
+                                <div class="box vendido">803</div>
+                                <div class="box disponible">804</div>
+
+                                <div class="box piso">Piso 7</div>
+                                <div class="box disponible">701</div>
+                                <div class="box disponible">702</div>
+                                <div class="box vendido">703</div>
+                                <div class="box disponible">704</div>
+
+                                <div class="box piso">Piso 6</div>
+                                <div class="box vendido">601</div>
+                                <div class="box vendido">602</div>
+                                <div class="box vendido">603</div>
+                                <div class="box disponible">604</div>
+
+                                <div class="box piso">Piso 5</div>
+                                <div class="box disponible">501</div>
+                                <div class="box vendido">502</div>
+                                <div class="box disponible">503</div>
+                                <div class="box disponible">504</div>
+
+                                <div class="box piso">Piso 4</div>
+                                <div class="box disponible">401</div>
+                                <div class="box vendido">402</div>
+                                <div class="box vendido">403</div>
+                                <div class="box vendido">404</div>
+
+                                <div class="box piso">Piso 3</div>
+                                <div class="box vendido">301</div>
+                                <div class="box vendido">302</div>
+                                <div class="box vendido">303</div>
+                                <div class="box disponible">304</div>
+
+                                <div class="box piso">Piso 2</div>
+                                <div class="box disponible">201</div>
+                                <div class="box vendido">202</div>
+                                <div class="box vendido">203</div>
+                                <div class="box disponible">204</div>
+
+                                <div class="box piso">Piso 1</div>
+                                <div class="box disponible">101</div>
+                                <div class="box disponible">102</div>
+                                <div class="box vendido">103</div>
+                                <div class="box disponible">104</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="botones-disponibles">
                 <button class="boton boton-azul">ETAPA 1</button>
@@ -395,16 +905,18 @@
 
         <section>
             <div class="">
-                <div class=""><h1>AVANCES DE OBRA</h1></div>
-                
+                <div class="">
+                    <h1>AVANCES DE OBRA</h1>
+                </div>
 
-                
+
+
 
 
             </div>
         </section>
 
-        
+
 
     </main>
     <footer>

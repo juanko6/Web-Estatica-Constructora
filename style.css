@@ -166,15 +166,13 @@ select
     vertical-align: middle;
 }
 
-.tituloformulario
+.tituloenvianos
 {
     color: #000000;
     font-family: "Roboto Thin";
-    font-size: 14px;
-    letter-spacing: 2pt;
-
+    font-size: 21px;
+    letter-spacing: 4px;
 }
-
 .tituloenvianos
 {
     color: #000000;
@@ -197,6 +195,7 @@ select
 .letraenviar
 {
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .textoazul
@@ -575,7 +574,7 @@ footer ul
 #inicio .bloque-inicio h1
 {
     color: white;
-    font-size: 35px;
+    font-size: 60px;
 
 }
 

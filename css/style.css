@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     box-sizing: border-box;
+    
 }
 
 a {
     display: inline-block;
     text-decoration: none;
+    
 }
 
 h1 {
@@ -107,38 +110,29 @@ header .container .hamb {
 #inicio .bloque-inicio {
     position: absolute;
     top: 40%;
-    left: 50%;
-    width: 400px;
+    left: 40%;
+    width: 600px;
     text-align: center;
-    margin-left: -200px;
+    margin-left: -300px;
 }
 
 #inicio .bloque-inicio h1 {
     color: white;
-    font-size: 35px;
+    font-size: 50px;
+    width: 100%;    
+    background-color: #2a22220e;
+    border-radius: 100px;
 
 }
 
 #inicio .bloque-inicio p {
-    color: white;
-    font-size: 11px;
+    color: #ffffff;
+    font-size: 25px;
+    width: 100%;
+    background-color: #2a222233;
+    border-radius: 100px;
 }
 
-.formulario {
-    padding-left: 22px;
-    padding-top: 45px;
-    padding-right: 20px;
-    position: absolute;
-    left: 100%;
-    top: 50%;
-    transform: translate(-100%, -50%);
-    width: 300px;
-    height: 500px;
-    background-color: #e2e2e2c8;
-    vertical-align: middle;
-}
-
-/*----------------------------- tipografia---------*/
 .formulario
 {
     padding-left: 22px;
@@ -148,11 +142,10 @@ header .container .hamb {
     left: 100%;
     top: 50%;
     transform: translate(-100%, -50%);
-    width: 300px;
-    height: 500px;
+    width: 25%;
+    height:550px;
     background-color: #e2e2e2c8;
     vertical-align: middle;
-    font-family: roboto thin;
 }
 .tituloformulario {
     color: #000000;
@@ -163,7 +156,7 @@ header .container .hamb {
 
 .tituloenvianos {
     color: #000000;
-    font-family: Roboto Thin;
+    font-family: 'Roboto Thin';
     font-size: 21px;
     letter-spacing: 4px;
 }
@@ -181,10 +174,16 @@ header .container .hamb {
 .letraenviar {
     letter-spacing: 3px;
 }
+.textoazul
+{
+ color: #258ecc;
+}
 
-.letraenteraste {
+.letraenteraste
+{
     color: #000000;
-    font-family: Roboto Thin;
+    font-family: "Roboto Thin";
+    font-size: 12px;
     letter-spacing: 2px;
     padding-top: 20px;
 }
@@ -239,6 +238,11 @@ header .container .hamb {
     margin-top: -45px;
 }
 
+#nosotros .bloque-servicio
+{
+    border: 1px solid gray;
+    
+}
 .boton2.boton-rojoavance {
     color: white;
     background-color: red;
@@ -248,6 +252,10 @@ header .container .hamb {
     font-weight: bold;
     border-radius: 4px;
     padding-left: 20px;
+}
+#contactenos
+{
+    position: relative;
 }
 
 #contactenos form
@@ -261,4 +269,78 @@ header .container .hamb {
     width: 100%;
     margin-bottom: 15px;
 
+}
+#contactenos form .form-block .form-control
+{
+    display:block;
+    height: 40px;
+    font-size:16px;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 5px 10px;
+    
+}
+#contactenos form .form-block textarea
+{
+    display:block;
+    height: 100px;
+    font-size:16px;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 5px 10px;
+    
+}
+#contactenos form .form-block.bloque-ultimo
+{
+    margin-bottom: 0;
+    
+}
+#contactenos iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+}
+.robotobold
+{
+    font-family: Roboto Medium;
+    font-size: 14px;
+}
+
+
+.boton 
+{
+    text-align: center;
+    text-decoration: none;
+    padding: 11px 20px;
+    border: none;
+    vertical-align: middle;
+    
+    
+}
+
+.boton.boton-azul
+{
+    color: white;
+    background-color: #258ecc;
+    width: 260px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.boton.boton-azul:hover
+{
+    background-color: #2a2222;
+}
+.letraenviar
+{
+    letter-spacing: 3px;
 }

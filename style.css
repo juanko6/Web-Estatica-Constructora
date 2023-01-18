@@ -42,6 +42,7 @@ header .container
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .boton 
@@ -109,13 +110,17 @@ header .container
     height: 35px;
     font-size: 12px;
     font-weight: bold;
-    border-radius: 4px;
+
+    border-radius: 5px;
+    margin-left: 10px;
+
     
 }
 
 .boton.boton-azul:hover
 {
     background-color: #2a2222;
+    border-radius: 5px;
 }
 
 .boton.boton-blanco
@@ -348,16 +353,17 @@ h4
 {
     color: white;
     background-color: black;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     border: 1px solid red;
+    
 }
 
 .boton.boton-negro:hover
 {
     color: black;
     background-color: white;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     border: 1px solid red;
 }
@@ -815,6 +821,137 @@ footer ul
 {
     text-align: center;
 }
+
+
+
+.seccciondiseño{
+    margin-top: 30px;
+    display: grid; 
+    grid-template-columns: 50% auto;
+    gap: 10px;
+    
+  
+}
+
+.margen
+{
+    margin-top: 40px;
+}
+
+.centraritems 
+{
+    text-align: center;
+    
+}
+.arriba_texto
+{
+    justify-self: stretch;
+    align-self: stretch;    
+  
+}
+.diseño_texto{
+    margin: 50px;
+    margin-right: 100px;
+     
+}
+.botones
+{
+    margin-left: 20px;
+    margin-right:60px;
+    
+}
+.video
+{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.diseño_imagen{
+    width:100%;
+    margin:8%;
+   
+
+}
+
+.line
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-bottom: 20px;
+    
+    
+}
+.cuadraditoB{
+    background-color:#fff;
+    color:#fff ;
+    border: #2A2222 1px solid;
+    padding: 5px ;
+    border-radius: 5px;
+    
+}
+
+.cuadraditoc
+{
+    background-color:#2A2222;
+    color:#2A2222 ;
+    padding: 5px ;
+    border-radius: 5px;
+    
+}
+.line p
+{
+    
+    margin-left: 10px;
+    margin-right:10px
+}
+
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p, h4, h5, h6, button
+{
+    font-size: 18px;
+}
+ 
+@media( min-width:1920px)
+{
+.imageninicio, .carruselhd
+{
+    width: 100%;
+}
+
+.arriba_texto
+{
+    margin-top: 20px;
+    
+    margin-left:15%;
+    margin-right: 25%;
+}
+
+
+
+
+
+}
+
 
 @media(max-width:767px)
 {

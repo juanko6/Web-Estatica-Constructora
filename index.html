@@ -872,7 +872,16 @@
         <div class="barra-footer">&copy; Derechos Reservados 2022</div>
     </footer>
     <script src="js/jquery.js"></script>
-    <script src="js/funciones.js"></script>
+    <script src="js/funciones.js">
+        var counter =1;
+        setInterval(function(){
+        document.getElementById('radio'+counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter=1;
+        }
+        }, 5000);
+    </script>
 </body>
 
 </html>

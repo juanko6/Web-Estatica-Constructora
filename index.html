@@ -17,6 +17,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/0070743294.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -85,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <img src="img/slideh.jpg" />
+            <img src="img/slideh.jpg"  class="imageninicio"/>
 
             <div class="bloque-inicio">
                 <h1>Nogales de la Florida</h1>
@@ -95,15 +100,15 @@
                 </p>
             </div>
         </section>
-        <section class="division">
-            <div class="container">
-                <div class="ContainerCenter">
+        <section class="division ">
+            <div class="container carruselhd">
+                <div class="ContainerCenter ">
                     <!-- Radio Seleccionar -->
                     <input type="radio" name="Carrusel" style="display: none" id="Slider1" checked />
                     <input type="radio" name="Carrusel" style="display: none" id="Slider2" />
                     <input type="radio" name="Carrusel" style="display: none" id="Slider3" />
 
-                    <div class="Carrusels">
+                    <div class="Carrusels carruselhd">
                         <!-- Imagen contenido -->
                         <div class="Carrusel"></div>
                         <div class="Carrusel"></div>
@@ -125,19 +130,19 @@
 
         <section>
             <div class="centraritems">
-            <h2 class="titulo_diseño">- DISEÑO APARTAMENTOS</h2>
-            <div class="boton_centrado">
-                <button onclick='tipo("img/img_tipo.png")' class="boton boton-azul">
-                    TIPO
-                </button>
-                <button onclick='planta("img/img_planta.png")' class="boton boton-azul">
-                    PLANTA
-                </button>
-                <button onclick='zona("img/img_zona.png")' class="boton boton-azul">
-                    ZONIFICACIÓN
-                </button>
+                <h2 class="titulo_diseño margen">- DISEÑO APARTAMENTOS</h2>
+                <div class="boton_centrado margen">
+                    <button onclick='tipo("img/img_tipo.png")' class="boton boton-azul">
+                        TIPO
+                    </button>
+                    <button onclick='planta("img/img_planta.png")' class="boton boton-azul">
+                        PLANTA
+                    </button>
+                    <button onclick='zona("img/img_zona.png")' class="boton boton-azul">
+                        ZONIFICACIÓN
+                    </button>
+                </div>
             </div>
-        </div>
 
             <div class="seccciondiseño">
                 <div class="margin_text">
@@ -280,14 +285,20 @@
         </section>
 
         <section class="">
-            <div class="centraritems">
+            <div class="centraritems margen">
                 <h1>APARTAMENTOS EN VENTA</h1>
-            <div class="botones">
-                <button onclick="bloque1()" class="boton boton-azul">ETAPA 1</button>
-                <button onclick="bloque2()" class="boton boton-azul">ETAPA 3</button>
-                <button onclick="bloque3()" class="boton boton-azul">ETAPA 4</button>
-                <button onclick="bloque4()" class="boton boton-azul">ETAPA 5</button>
-            </div>
+                <div class="line">
+                    <div class="cuadraditoB">pp</div>
+                    <p>disponible</p>
+                    <div class="cuadraditoc">pp</div>
+                    <p>vendido</p>
+                </div>
+                <div class="botones">
+                    <button onclick="bloque1()" class="boton boton-azul">ETAPA 1</button>
+                    <button onclick="bloque2()" class="boton boton-azul">ETAPA 3</button>
+                    <button onclick="bloque3()" class="boton boton-azul">ETAPA 4</button>
+                    <button onclick="bloque4()" class="boton boton-azul">ETAPA 5</button>
+                </div>
             </div>
 
             <div id="unidadesenventa" class="disponibilidad">
@@ -778,12 +789,12 @@
         </section>
 
         <section>
-            <div class="centraritems video">
-                <div class="">
+            <div class="centraritems video margen">
+                <div class="centraritems margen">
                     <h1>AVANCES DE OBRA</h1>
                 </div>
 
-                <div>
+                <div class="">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/xp_eVt6EK30"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

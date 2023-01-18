@@ -32,7 +32,7 @@ function tipo(imagen) {
   divtexto.innerHTML = "<p>* Hall de acceso. <br>* Sala Comedor. <br>* Cocina Abierta. <br>* Area de Ropas. <br>* 3 Habitaciones. <br>* 2 Baños.<br> <br> Área Construida 62.32 m² <br> Área Privada 55.56 m² <br><br> Diseño Inteligente: <br>Todos los espacios iluminados y ventilados naturalmente. <br> <br>Únicos en el sector con area construida de: <h2>62.32 m²</h2></p > "
   let divimagen = document.getElementById("imagen-cambio");
   divimagen.src = imagen;
-  mostrar.hidden();
+ 
 }
 
 

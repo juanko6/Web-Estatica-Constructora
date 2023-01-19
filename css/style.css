@@ -353,12 +353,12 @@ header .container .hamb {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: brown;
+    
 
 }
 .slider{
-    width:800px;
-    height:500px;
+    width:90%;
+    height:100%;
     
     overflow: hidden;
    
@@ -377,21 +377,21 @@ header .container .hamb {
     transition: 2s;
 }
 .slide img{
-    width: 800px;
-    height:500px;
+    width: 100%;
+    height:100%;
 }
 
 
 .navigation-manual{
     position: absolute;
-    width: 800px;
-    margin-top:450px;
+    width: 90%;
+    margin-top:730px;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn{
-    border: 2px solid #4d4a00;
+    border: 2px solid #2A2222;
     padding: 8px;
     border-radius: 30px;
     cursor: pointer;
@@ -401,7 +401,7 @@ header .container .hamb {
     margin-right: 40px;
 }
 .manual-btn:hover{
-    background: #fff700;
+    background: #fff;
 }
 /*---------carrusel*/
 #radio1:checked ~ .first{
@@ -419,14 +419,14 @@ header .container .hamb {
 .navigation-auto{
     position:absolute;
     display: flex;
-    width: 800px;
+    width: 90%;
     justify-content: center;
-    margin-top:450px;
+    margin-top:730px;
 
     
 }
 .navigation-auto div{
-    border: 2px solid #4d4a00;
+    border: 2px solid #2A2222;
     padding: 8px;
     border-radius: 30px;
     transition: 1s;
@@ -435,13 +435,13 @@ header .container .hamb {
     margin-right: 40px;
 }
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #fff700;
+    background: #fff;
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #fff700;
+    background: #fff;
 }
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #fff700;
+    background: #fff;
 }
 .margen
 {
@@ -698,19 +698,18 @@ footer .logo-footer
 footer
 {
     margin-top: 50px;
-    background-color:black;
+    background-color:#2A2222;
     color: white;
     padding-top: 30px;
 }
 
 footer .barra-footer
 {
-    background-color:gray;
-    text-align: center;
+    background-color:#594A4A;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 footer .logo-footer
@@ -753,4 +752,16 @@ footer ul
     padding-left: 0;
     list-style: none;
     margin: 0;
+}
+.logo-footer
+{
+    padding: 5%;
+    margin-top: 0;
+    padding-top: 0;
+}
+.redes li{
+    text-align: center;
+    width: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
 }

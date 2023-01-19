@@ -426,7 +426,7 @@ footer
 
 footer .barra-footer
 {
-    background-color:gray;
+    background-color:#2A2222;
     text-align: center;
     padding-right: 15px;
     padding-left: 15px;
@@ -516,6 +516,7 @@ footer ul
 .columna-25
 {
     width:25%;
+    
 }
 
 .columna-33
@@ -1007,6 +1008,7 @@ p, h4, h5, h6, button
 
     footer .logo-footer
     {
+       
         width: 50%;
     }
 

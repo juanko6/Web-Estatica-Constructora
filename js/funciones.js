@@ -1,4 +1,4 @@
-$(document).ready(listo);
+
 
 function listo()
 {
@@ -22,6 +22,7 @@ function listo()
         })
     })
 }
+
 
 //funcion dise;o apartamentos
 
@@ -53,14 +54,14 @@ function zona(imagen) {
 
 }
 
- etapa_1 =document.getElementById("etapa1");
- etapa_2 =document.getElementById("etapa3");
- etapa_3 =document.getElementById("etapa4");
- etapa_4 =document.getElementById("etapa5");
+ var etapa_1 = document.getElementById('etapa1');
+var etapa_2 = document.getElementById("etapa3");
+ var etapa_3 = document.getElementById("etapa4");
+ var etapa_4 = document.getElementById("etapa5");
 
 
 function bloque1(){
-  etapa_1.style.display = 'block'; 
+  etapa_1.style.display = "block"; 
   etapa_2.style.display = 'none';
   etapa_3.style.display = 'none';
   etapa_4.style.display = 'none';

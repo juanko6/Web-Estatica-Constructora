@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" name="description aqui se escribe la descripcion de la pagina" content="IE=edge">
-
-
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" name="description aqui se escribe la descripcion de la pagina"
+        content="IE=edge" />
     <title>Nogales de la Florida</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/0070743294.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -81,11 +81,20 @@
                 <div>
                     <h3 class="robotothin">Área Construida</h3>
                     <h1 class="robototitulo">62.32mts<sup>2</sup></h1>
+
+                </div>
+                <div>
+                    <a href="#nosotros" class="boton2 boton-rojoavance">
+                        <h2 class="robotobold">Avance de Obra</h2><img src="img/click-hand.png" class="clickhand">
+                    </a>
+
+
                 </div>
                 <div>
                     <a href="#nosotros" class="boton2 boton-rojoavance"><h2 class="robotobold">Avance de Obra</h2><img src="img/click-hand.png" class="clickhand"></a>
                     
                 </div>
+
 
 
 
@@ -98,33 +107,42 @@
                     Apartamentos en Tunja - Boyacá NO VIS.</p>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <div class="ContainerCenter">
-                    <!-- Radio Seleccionar -->
-                    <input type="radio" name="Carrusel" style="display: none" id="Slider1" checked>
-                    <input type="radio" name="Carrusel" style="display: none" id="Slider2">
-                    <input type="radio" name="Carrusel" style="display: none" id="Slider3">
 
-                    <div class="Carrusels">
-                        <!-- Imagen contenido -->
-                        <div class="Carrusel"></div>
-                        <div class="Carrusel"></div>
-                        <div class="Carrusel"></div>
 
-                        <!-- Flechas a la izquierda por cada imagen -->
-                        <label for="Slider3" class="ArrowLeft Arrow1">❮</label>
-                        <label for="Slider1" class="ArrowLeft Arrow2">❮</label>
-                        <label for="Slider2" class="ArrowLeft Arrow3">❮</label>
+        <section class="carrusel-imagenes">
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
 
-                        <!-- Flechas a la derecha por cada imagen -->
-                        <label for="Slider2" class="ArrowRight Arrow1">❯</label>
-                        <label for="Slider3" class="ArrowRight Arrow2">❯</label>
-                        <label for="Slider1" class="ArrowRight Arrow3">❯</label>
+                    <div class="slide first">
+                        <img src="img/slide1.jpg">
+
                     </div>
+                    <div class="slide">
+                        <img src="img/slide2.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="img/slide3.jpg">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+
                 </div>
             </div>
         </section>
+
 
         <section>
             <h2 class="titulo_diseño">- DISEÑO APARTAMENTOS</h2>
@@ -160,14 +178,16 @@
         <section>
             <div class="acabados">
                 <div class="row">
-                    <div class="columna columna-50 columna-mobile-100">
-                        <h3>Compra tu apartamento en Nogales de la Florida con: </h3>
+
+                    <div class="columna columna-50 columna-mobile-100 colornegro">
+                        <h3>Compra tu apartamento en Nogales de la Florida con:</h3>
+
                         <h2>* ACABADOS ESTANDAR</h2>
                         <h2>* ACABADOS PREMIUM</h2>
                         <h2>* PARQUEADEROS INTERNO O EXTERNO</h2>
                         <h5>* Acabados con costo adicional</h5>
                     </div>
-                    <div class="columna columna-50 columna-mobile-100">
+                    <div class="columna columna-50 columna-mobile-100 colornegro">
                         <h3>Área Construida</h3>
                         <h1>62.32mts<sup>2</sup></h1>
                         <h5>* Unicos en el sector</h5>
@@ -185,19 +205,36 @@
                 <div class="row">
                     <div class="columna columna-50 columna-mobile-100">
                         <div class="ventajas">
-                            <h3>Ventajas de </h3>
-                            <h2>Nogales de la Florida</h2>
-                            <h2><img src="img/1conjunto.png">Conjunto Cerrado</h2>
-                            <h2><img src="img/2ascensor.png">Ascensor desde el sótano</h2>
-                            <h2><img src="img/3costo.png">Excelente relación costo beneficio</h2>
-                            <h2><img src="img/4vias.png">Ubicado entre importantes vias de la ciudad</h2>
-                            <h2><img src="img/5comercial.png">Cerca al nuevo Centro Comercial</h2>
-                            <h2><img src="img/6desarrollo.png">Sector de gran desarrollo</h2>
-                            <h2><img src="img/7colegios.png">Cerca a reconocidos Colegios</h2>
+
+                            <h3 class="centrar50">Ventajas de</h3>
+                            <h2 class="sin-margensup centrar50">Nogales de la Florida</h2>
+                            <h2><img src="img/1conjunto.png" />Conjunto Cerrado</h2>
+                            <h2><img src="img/2ascensor.png" />Ascensor desde el sótano</h2>
+                            <h2>
+                                <img src="img/3costo.png" />Excelente relación costo beneficio
+                            </h2>
+                            <h2>
+                                <img src="img/4vias.png" />Ubicado entre importantes vias de
+                                la ciudad
+                            </h2>
+                            <h2>
+                                <img src="img/5comercial.png" />Cerca al nuevo Centro
+                                Comercial
+                            </h2>
+                            <h2>
+                                <img src="img/6desarrollo.png" />Sector de gran desarrollo
+                            </h2>
+                            <h2>
+                                <img src="img/7colegios.png" />Cerca a reconocidos Colegios
+                            </h2>
                         </div>
                     </div>
-                    <div class="columna columna-50 columna-mobile-100 bg-beneficios">
-                        <h3>Disfruta de estos y muchos más beneficios aqui en Nogales de la Florida</h3>
+                    <div class="columna columna-50 columna-mobile-100 bg-beneficios ">
+                        <h3 class="centrar50 colorblanco">
+                            Disfruta de estos y muchos más <br> beneficios aqui en Nogales de la <br>
+                            Florida
+                        </h3>
+
                         <div class="beneficios">
 
                             <div class="grid-icono icono-beneficio1"><img src="img/1beneficios.png">
@@ -790,46 +827,89 @@
 
     </main>
     <footer>
-        <div class="container">
+        <div class="container centraritems">
             <div class="row">
                 <div class="columna columna-25 columna-mobile-100">
-                    <img src="img/logo-blanco.png" class="logo-footer">
-                    <p>All the Lorem Ipsum generators on the Internet tend to repeat
-                        predefined chunks as necessary, making this the first true </p>
-                </div>
-                <div class="columna columna-25 columna-mobile-100">
-                    <h3>temas relacionados</h3>
+
+                    <img src="" alt="">
+                    <h3>Llamanos</h3>
                     <ul>
-                        <li> <a href="#">Tema 1</a> </li>
-                        <li> <a href="#">Tema 2</a></li>
-                        <li><a href="#">Tema 3</a> </li>
+                        <li>301 383 03 92
+                            
+                            </li>
+                        <li>304 261 94 88</li>
+                        <li>
+                            301 605 35 98
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="columna columna-25 columna-mobile-100">
+                    <h3>Escríbenos</h3>
+                    <ul>
+
+                        
+                        <li><a href="mailto:proyectonogalesdelaflorida@gmail.com">proyectonogalesdela
+                            florida@gmail.com</a> </li>
+                        <li><a href="mailto:ventas.nogalesdelaflorida@gmail.com">ventas.nogalesdela
+                            florida@gmail.com</a></li>
+                        
+
                     </ul>
                 </div>
                 <div class="columna columna-25 columna-mobile-100">
-                    <h3>Datos de contacto</h3>
+                    <h3>VisÍtanos</h3>
                     <ul>
-                        <li>juanko6@gmail.com </li>
-                        <li>+51 3137229239</li>
-                        <li>Tulua, Valle del Cauca <br> Colombia </li>
+
+                        <li>Carrera 7 1A Sur – 114
+                            </li>
+                        <li> Tunja - Boyacá</li>
+                        <li>
+                        </li>
+
                     </ul>
                 </div>
+
+                
+                
+
                 <div class="columna columna-25 columna-mobile-100">
-                    <h3>Redes sociales</h3>
+                    <img src="img/horizo_logonogalesw.png" class="logo-footer" />
+                    <h3>Síguenos</h3>
                     <ul class="redes">
-                        <li> <a href="#"><i class="fa-brands fa-facebook-f"></i></a> </li>
-                        <li> <a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li> <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> </li>
+
+                        <li>
+                            <a href="https://www.facebook.com/nogalesdelafloridaapartamentos"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/nogalesdelaflorida/"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@proyectonogales7055"><i class="fa-brands fa-youtube"></i></a>
+                        </li>
+
                     </ul>
                 </div>
+                
             </div>
         </div>
-        <div class="barra-footer">
-            &copy; Derechos Reservados 2022
-        </div>
+
+        <div class="barra-footer">&copy; Desarrollado por logic__lab 2022</div>
 
     </footer>
-    <script src="js/jquery.js"></script>
-    <script src="js/funciones.js"></script>
+    <script type="text/javascript">
+        var counter = 2;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 3) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+    <script src="js/funciones.js">
+    </script>
 </body>
 
 </html>

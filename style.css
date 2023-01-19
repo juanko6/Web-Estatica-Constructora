@@ -499,7 +499,10 @@ header .container .hamb {
     margin-right: 100px;  
 }
 
-
+.grid_diseño{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
 
 /*acabados*/
 .colorblanco{

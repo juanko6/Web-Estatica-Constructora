@@ -504,6 +504,7 @@ header .container .hamb {
     grid-template-columns: 50% auto;
 }
 
+
 /*acabados*/
 .colorblanco{
     color: #fff;
@@ -589,6 +590,10 @@ header .container .hamb {
     padding: auto;
 }
 
+.ventayvendido{
+    padding-left:30px;
+    padding-right: 30px;
+}
 /*map*/
 .seccionmap
 {
@@ -602,7 +607,6 @@ header .container .hamb {
     display: flex;
     align-items: center;
     justify-content: center;
-  
     margin-bottom: 20px;
     
     
@@ -614,7 +618,8 @@ header .container .hamb {
     border: #2A2222 1px solid;
     padding: 5px ;
     border-radius: 5px;
-    
+    align-items: center; 
+    margin-left: 30px;
 }
 
 .cuadraditoc
@@ -623,6 +628,7 @@ header .container .hamb {
     color:#2A2222 ;
     padding: 5px ;
     border-radius: 5px;
+    align-items: center;
     
 }
 .line p
@@ -694,7 +700,17 @@ header .container .hamb {
 {
     text-align: center;
 }
+.mabajo{
+    padding-bottom:30px;
 
+}
+
+
+.ventayvendido{
+   display:inline-flex;
+   text-align: center;
+  
+}
 /*footer*/
 .columna-25
 {
@@ -707,7 +723,7 @@ footer .logo-footer
 
 footer
 {
-    margin-top: 50px;
+    
     background-color:#2A2222;
     color: white;
     padding-top: 30px;

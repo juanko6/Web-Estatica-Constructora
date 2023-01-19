@@ -14,7 +14,7 @@ body
 
 .bg
 {
-    background-image: url("img/bg-brand.jpg");
+    background-image: url("../img/bg-brand.jpg");
     background-repeat: repeat-y;
 }
 
@@ -114,7 +114,7 @@ header .container
 
     border-radius: 5px;
     margin-left: 10px;
-
+    
     
 }
 
@@ -166,13 +166,15 @@ select
     vertical-align: middle;
 }
 
-.tituloenvianos
+.tituloformulario
 {
     color: #000000;
     font-family: "Roboto Thin";
-    font-size: 21px;
-    letter-spacing: 4px;
+    font-size: 14px;
+    letter-spacing: 2pt;
+
 }
+
 .tituloenvianos
 {
     color: #000000;
@@ -195,7 +197,6 @@ select
 .letraenviar
 {
     letter-spacing: 3px;
-    text-align: center;
 }
 
 .textoazul
@@ -574,7 +575,7 @@ footer ul
 #inicio .bloque-inicio h1
 {
     color: white;
-    font-size: 60px;
+    font-size: 35px;
 
 }
 

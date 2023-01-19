@@ -444,3 +444,181 @@ header .container .hamb {
 #radio3:checked ~ .navigation-auto .auto-btn3{
     background: #fff700;
 }
+.margen
+{
+    margin-top: 40px;
+}
+
+.centraritems 
+{
+    text-align: center;
+}
+
+.boton.boton-azul
+{
+    color: white;
+    background-color: #258ecc;
+    width: 260px;
+    height: 38px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 30px; 
+}
+
+.boton.boton-azul:hover
+{
+    background-color: #2a2222;
+    border-radius: 5px;
+}
+.seccciondiseño{
+    margin-top: 30px;
+    display: grid; 
+    grid-template-columns: 50% auto;
+    gap: 10px;
+}
+.diseño_imagen{
+    width:100%;
+    margin:8%;
+    
+}
+.arriba_texto
+{
+    justify-self: stretch;
+    align-self: stretch;    
+}
+.diseño_texto{
+    margin: 100px;
+    margin-right: 100px;  
+}
+
+
+
+/*acabados*/
+.colorblanco{
+    color: #fff;
+}
+.colornegro{
+    color: #000000;
+}
+.sin-margensup{
+    margin-top:0;
+    font-size: 40px;
+}
+.centrar50{
+    padding-left:17.5%;
+}
+.acabados
+{
+    background-color: #2a22226e;
+    color: white;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.columna
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+
+}
+.columna-50
+{
+    width:50%;
+}
+.boton.boton-rojo
+{
+    color: white;
+    background-color: red;
+    width: 260px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ventajas
+{
+    display: grid;
+    justify-content: center;
+}
+.beneficios
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 125px 125px 125px 125px;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+.grid-icono
+{
+    display: grid;
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    border-radius: 8px;
+    place-items: center;
+}
+.texto-beneficios
+{
+    font-size:12px;
+    text-align: center;
+    width: 70px;
+    padding: 0;
+}
+.bg-beneficios
+{
+    background-color: #2a2222;
+    padding: auto;
+}
+
+/*map*/
+.seccionmap
+{
+    width: 100%;
+    height: 400px;
+}
+
+
+.line
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-bottom: 20px;
+    
+    
+}
+
+.cuadraditoB{
+    background-color:#fff;
+    color:#fff ;
+    border: #2A2222 1px solid;
+    padding: 5px ;
+    border-radius: 5px;
+    
+}
+
+.cuadraditoc
+{
+    background-color:#2A2222;
+    color:#2A2222 ;
+    padding: 5px ;
+    border-radius: 5px;
+    
+}
+.line p
+{
+    
+    margin-left: 10px;
+    margin-right:10px
+}

@@ -48,7 +48,7 @@ function planta(imagen) {
 
 function zona(imagen) {
   var divtexto = document.getElementById("texto-cambio");
-  divtexto.innerHTML = " <h3>Planta arquitectónicazonificación etapas</h3><p>Nuestro Proyecto ha sido diseñado y desarrollado, teniendocomo punto de partida la comodidad y funcionalidad de cada uno de sus espacios, adicinalmente tiene amplias zonas verdes con senderos peatonales para el disfrute en familia. <br><br>Área Total 10794 m² <br><br>Únicos en el sector con <br>ascensor hasta el sótano.<br>Solo 4 apartamentos<br>por piso.</p>"
+  divtexto.innerHTML = " <h3>Planta arquitectónica <br> zonificación etapas</h3><p>Nuestro Proyecto ha sido diseñado y desarrollado, teniendocomo punto de partida la comodidad y funcionalidad de cada uno de sus espacios, adicinalmente tiene amplias zonas verdes con senderos peatonales para el disfrute en familia. <br><br>Área Total 10794 m² <br><br>Únicos en el sector con <br>ascensor hasta el sótano.<br>Solo 4 apartamentos<br>por piso.</p>"
   let divimagen = document.getElementById("imagen-cambio");
   divimagen.src = imagen;
 

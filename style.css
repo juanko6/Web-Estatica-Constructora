@@ -73,6 +73,7 @@ header {
     z-index: 2;
     background-color: #2a2222;
     width: 100%;
+    height: 150px;
 }
 
 header .container {
@@ -80,21 +81,37 @@ header .container {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 100%;
 }
 
 header .container .logo {
-    width: 150px
+    width: 200px;
+    margin-left: 50px;
+    
 }
 
 header .container nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
+    margin-left: 40px;
+    letter-spacing: 3px;
 }
 
 header .container .hamb {
     display: none;
     position: relative;
+}
+nav{
+    margin-right: 50px;
+}
+.logos{margin-left:40px;
+     
+}
+
+.logos2{
+    padding-right:0;
+  
 }
 
 /*fondo*/
@@ -364,7 +381,7 @@ header .container .hamb {
 
 }
 .slider{
-    width:90%;
+    width:100%;
     height:100%;
     
     overflow: hidden;
@@ -391,7 +408,7 @@ header .container .hamb {
 
 .navigation-manual{
     position: absolute;
-    width: 90%;
+    width: 100%;
     margin-top:730px;
     display: flex;
     justify-content: center;
@@ -426,7 +443,7 @@ header .container .hamb {
 .navigation-auto{
     position:absolute;
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     margin-top:730px;
 
@@ -481,29 +498,32 @@ header .container .hamb {
 .seccciondiseño{
     margin-top: 30px;
     display: grid; 
-    grid-template-columns: 50% auto;
+    grid-template-columns: 50% 40%;
     gap: 10px;
 }
 .diseño_imagen{
-    width:100%;
-    margin:8%;
+    width:110%;
+    margin-left:5%;
     
 }
-.arriba_texto
-{
-    justify-self: stretch;
-    align-self: stretch;    
-}
+
 .diseño_texto{
-    margin: 100px;
-    margin-right: 100px;  
+    padding-top: 0;
+    margin-top: 0;
+    width: auto;
+   
+    margin-left: 20%;  
 }
 
 .grid_diseño{
     display: grid;
     grid-template-columns: 50% auto;
 }
-
+.arriba_texto
+{
+    justify-self: stretch;
+    align-self: stretch;    
+}
 
 /*acabados*/
 .colorblanco{
@@ -518,11 +538,20 @@ header .container .hamb {
 }
 .centrar50{
     padding-left:17.5%;
+    font-size:25px;
+    width: 85%;
+    margin-bottom: 75px;
 }
 .acabados
 {
     background-color: #2a22226e;
     color: white;
+}
+.acabado{
+    margin-left: 180px;
+}
+.area{
+    margin-left: 200px;
 }
 .row {
     display: flex;
@@ -537,7 +566,7 @@ header .container .hamb {
     padding-left: 15px;
     padding-bottom: 15px;
     padding-top: 15px;
-
+    
 
 }
 .columna-50
@@ -550,14 +579,19 @@ header .container .hamb {
     background-color: red;
     width: 260px;
     height: 35px;
-    font-size: 12px;
+    font-size:15px;
+    text-align: left;
     font-weight: bold;
+    border-radius: 9px;
+    letter-spacing: 6px;
 }
 
 .ventajas
 {
     display: grid;
     justify-content: center;
+    margin-left: 80px;
+    text-align: left;
 }
 .beneficios
 {
@@ -567,6 +601,10 @@ header .container .hamb {
     gap: 30px;
     justify-content: center;
     align-content: center;
+   
+}
+.espaciado{
+    margin-bottom: 60px;
 }
 .grid-icono
 {

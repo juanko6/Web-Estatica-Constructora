@@ -830,7 +830,9 @@ footer ul
     margin-right: 10%;
     margin-left: 10%;
 }
-
+.ocultar{
+    display: none;
+}
 
 @media screen and (max-width: 600px){
 
@@ -903,6 +905,24 @@ footer ul
         
         margin: 0;
         margin-left: 15px;
+    }
+    .ocultar{
+        display: block;
+    }
+
+    .boton_apartamentos{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+       
+    }
+    .boton.boton.boton-azul{
+        display: block;
+        font-size:15px;
+        margin: 8px;
+        padding-left:0px;
+        padding-right:0px; 
+       
     }
     
 }

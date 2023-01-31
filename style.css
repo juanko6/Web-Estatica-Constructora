@@ -848,16 +848,15 @@ footer ul
 
     }
 
-    .boton_centrado, .boton {
+    
+    .boton_centrado{
         display: grid;
-        grid-template-columns: 30% 30% 30%;
-        
-
+        grid-template-columns: auto auto auto;
+        margin-bottom: 15px;
     }
     .boton.boton.boton-azul{
         margin: 10px;
         width: 110px;
-      
         align-items: center;
         text-align: center;
         font-size:12px;
@@ -923,6 +922,9 @@ footer ul
         padding-left:0px;
         padding-right:0px; 
        
+    }
+    .titulo_diseño{
+        font-size:25px;
     }
     
 }

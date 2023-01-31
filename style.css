@@ -836,10 +836,13 @@ footer ul
 
 @media screen and (max-width: 600px){
 
+    header{
+        
+    }
     .carrusel-imagenes{
         margin-top: 80px;
-        width: 100%;
-        height: 400px;
+        width: 751px;
+        height: 667px;
 
     }
 
@@ -926,5 +929,14 @@ footer ul
     .titulo_diseño{
         font-size:25px;
     }
-    
+    #image-carrusel1{
+        content: url("img/mslide1.jpg");
+    }
+    #image-carrusel2{
+        content: url("img/mslide2.jpg");
+    }
+    #image-carrusel3{
+       
+        content: url("img/mslide3.jpg");
+    }
 }

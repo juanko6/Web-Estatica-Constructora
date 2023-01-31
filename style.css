@@ -7,6 +7,7 @@
 {
     background-image: url("../img/bg-brand.jpg");
     background-repeat: repeat-y;
+    background-size : contain;
 }
 
 
@@ -828,4 +829,114 @@ footer ul
     width: 100%;
     margin-right: 10%;
     margin-left: 10%;
+}
+.ocultar{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+
+    header{
+        
+    }
+    .carrusel-imagenes{
+        margin-top: 80px;
+        width: 751px;
+        height: 667px;
+
+    }
+
+    .navigation-manual, .navigation-auto{
+        margin-top: 360px;
+
+    }
+
+    
+    .boton_centrado{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 15px;
+    }
+    .boton.boton.boton-azul{
+        margin: 10px;
+        width: 110px;
+        align-items: center;
+        text-align: center;
+        font-size:12px;
+    }
+
+    .grid_diseño{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .grid_diseño img{
+        width: 80%;
+    }
+    .grid_diseño .diseño_texto {
+        width: 80%;
+        text-align: left;
+        margin: 40px;
+        margin-bottom: 0;
+    }
+    .row{
+        display: grid;
+        grid-template-columns:auto ;
+    }
+    .columna.columna-mobile-100{
+        display: grid;
+        
+    }
+    .beneficios {
+        grid-template-columns:auto auto;
+        
+    }
+    .bg-beneficios{
+        width: 100%;
+        text-align: center;
+    }
+    .celular{
+        display: grid;
+        grid-template-columns:auto auto;
+
+    }
+    .ventajas h2, h3{
+        text-align: center;
+    }
+    .ventajas{
+        
+        margin: 0;
+        margin-left: 15px;
+    }
+    .ocultar{
+        display: block;
+    }
+
+    .boton_apartamentos{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+       
+    }
+    .boton.boton.boton-azul{
+        display: block;
+        font-size:15px;
+        margin: 8px;
+        padding-left:0px;
+        padding-right:0px; 
+       
+    }
+    .titulo_diseño{
+        font-size:25px;
+    }
+    #image-carrusel1{
+        content: url("img/mslide1.jpg");
+    }
+    #image-carrusel2{
+        content: url("img/mslide2.jpg");
+    }
+    #image-carrusel3{
+       
+        content: url("img/mslide3.jpg");
+    }
 }

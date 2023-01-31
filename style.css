@@ -875,7 +875,34 @@ footer ul
         margin: 40px;
         margin-bottom: 0;
     }
-    
-    
+    .row{
+        display: grid;
+        grid-template-columns:auto ;
+    }
+    .columna.columna-mobile-100{
+        display: grid;
+        
+    }
+    .beneficios {
+        grid-template-columns:auto auto;
+        
+    }
+    .bg-beneficios{
+        width: 100%;
+        text-align: center;
+    }
+    .celular{
+        display: grid;
+        grid-template-columns:auto auto;
+
+    }
+    .ventajas h2, h3{
+        text-align: center;
+    }
+    .ventajas{
+        
+        margin: 0;
+        margin-left: 15px;
+    }
     
 }

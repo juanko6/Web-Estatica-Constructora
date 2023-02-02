@@ -29,7 +29,7 @@
             </a>
             <nav>
                 <a href="#inicio">NOSOTROS</a>
-                <a href="#nosotros">PROYECTOS</a>
+                <a href="#nosotros">PROYECTO</a>
                 <a href="#servicios">BLOG</a>
                 <a href="#contactenos">CONTÁCTANOS</a>
 
@@ -45,8 +45,12 @@
         </div>
     </header>
     <main class="bg">
+
         <section id="inicio">
-            <div class="formulario">
+
+            
+
+            <div id="formulario" class="formulario">
                 <h3 class="tituloformulario">Para mayor información sobre el proyecto en venta y planes de financiación
                 </h3>
                 <h2 class="tituloenvianos">Envianos tus datos!</h2>
@@ -103,9 +107,11 @@
 
 
             </div>
-            <img src="img/slideh.jpg">
 
+            <img class="img-responsive"src="img/slideh.jpg">
+            <a href="#" id="btn_desplegar" class="boton boton-azul">Contáctenos</a>
             <div class="bloque-inicio">
+                
                 <h1>Nogales de la Florida</h1>
                 <p>Mas que un sueño, una realidad
                     Apartamentos en Tunja - Boyacá NO VIS.</p>
@@ -145,12 +151,14 @@
 
                 </div>
             </div>
+            
         </section>
 
 
         <section>
             <h2 class="titulo_diseño centraritems">- DISEÑO APARTAMENTOS</h2>
             <div class="boton_centrado centraritems">
+                
                 <button onclick='tipo("img/img_tipo.png")' class="boton boton-azul">TIPO</button>
                 <button onclick='planta("img/img_planta.png")' class="boton boton-azul">PLANTA</button>
                 <button onclick='zona("img/img_zona.png")' class="boton boton-azul">ZONIFICACIÓN</button>
@@ -196,6 +204,8 @@
                         <h1>62.32mts<sup>2</sup></h1>
                         <h5>* Unicos en el sector</h5>
                         <a href="#nosotros" class="boton boton-rojo">Avance de Obra</a>
+                        
+           
                     </div>
 
                 </div>
@@ -926,6 +936,7 @@
             }
         }, 5000);
     </script>
+    <script src="js/jquery.js"></script>
     <script src="js/funciones.js">
     </script>
 </body>

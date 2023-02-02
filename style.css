@@ -227,7 +227,6 @@ nav{
     align-items: center;
     padding-left: 90px;
     background-color: #2a2222;
-
     width: 100%;
     height: 100px;
     bottom: 0px;
@@ -345,6 +344,10 @@ nav{
     vertical-align: middle;
     
     
+}
+.boton-contacto 
+{
+    display: none;
 }
 
 .boton.boton-azul
@@ -839,9 +842,210 @@ footer ul
 
 @media screen and (max-width: 600px){
 
-    header{
-       
+    header {
+
+        height: 60px;
     }
+
+    header .container nav 
+    {
+        position:fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #2A2222;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 15px;
+        padding-left: 15px;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s ease;
+        transform: translateX(100%);
+    }
+
+    header .container nav.open 
+    {
+        transform: translateX(0);
+    }
+
+    .formulario
+    {
+        padding-left: 22px;
+        padding-top: 45px;
+        padding-right: 0;
+        position: inline;
+        left: 100%;
+        top: 60%;
+        
+        width: 280px;
+        height:420px;
+        background-color: #e2e2e2c8;
+        vertical-align: none;
+        opacity: 0;
+        transition: opacity 1s ;
+    }
+
+    .tituloformulario
+    {
+        text-align: left;
+        font-size:13px;
+    }
+
+    .tituloenvianos
+    {
+        font-size:12px
+    }
+
+    .letraformulario
+    {
+        font-size:10px;
+    }
+
+    .letraenteraste
+    {
+        font-size:13px
+    }
+
+    
+    select
+    {
+        font-size:10px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .politicas
+    {
+        padding-top: 20px;
+        font-size:10px;
+    }
+
+    .formulario .letraenviar a
+    {
+        margin-right: -20px;
+    }
+
+
+
+    header .container nav a
+    {
+        font-size: 20px;
+        margin: 15px 0;
+        color: white;
+    }
+
+    header .container .hamb
+    {
+        display: inline-block;
+        font-size:25px;
+        color: white;
+        margin-right: 10px;
+    }
+    
+    header .container .hamb i:active
+    {
+        
+        color: #2A2222;
+    }
+
+    header .container .logo {
+        width: 90px;
+        margin-left: 20px;
+        
+    }
+
+    nav{
+        text-align: left;
+        
+    }
+
+    .logos{
+        margin-top: 120px;
+        margin-left:0px;
+        text-align: center;
+    }
+    
+    .logos2{
+        padding-right:0;
+        text-align: center;
+    }
+
+    #inicio img
+    {
+        content: url(img/mheadernogales.jpg);
+        height: 100%;
+        margin-top:-40px;
+    }
+
+    #inicio{
+        height:550px
+    }
+
+    .bloque-inicio
+    {
+        display: none;
+    }
+
+    .boton.boton-azul
+    {
+        display: block;
+        position: relative;
+        top: -82%;
+        right: -60%;
+        color: white;
+        background-color: #258ecc;
+        width: 260px;
+        height: 35px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 4px;
+        text-align: center;
+        width: 100%;
+    
+    }
+    
+    .formulario .boton.boton-azul
+    {
+        left:23%;
+    }
+
+    .precio 
+    {
+        display: grid;
+        position: absolute;
+        grid-template-columns: auto;
+        align-items: center;
+        padding-left: 50px;
+        background-color: #2a2222;
+        width: 100%;
+        height: 220px;
+        bottom: -220px;
+        color: white;
+        font-family: Roboto Thin;
+        padding: none;
+        line-height: 7px;
+        letter-spacing: 2px;
+    }
+    
+    .robotothin {
+        font-size: 8px;
+        letter-spacing: 4px;
+        margin-top: 10px;
+        margin-left: -190px;
+    }
+    
+    .robototitulo {
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+    
+    .boton2 {
+        text-decoration: none;
+        padding-top: 4px;
+        border: none;
+    }
+
     .carrusel-imagenes{
         margin-top: 80px;
         width: 100%;
@@ -910,7 +1114,6 @@ footer ul
         width: 100%;
     }
     .ventajas{
-       
         margin: 0;
         margin-left: 15px;
     }
@@ -922,9 +1125,11 @@ footer ul
         display: grid;
         grid-template-columns: auto auto;
         justify-content: center;
+
         margin-left: 20px;
         margin-right: 20px;
        
+
     }
     .boton.boton.boton-azul{
         display: block;
@@ -932,7 +1137,6 @@ footer ul
         margin: 8px;
         padding-left:0px;
         padding-right:0px; 
-       
     }
     .titulo_diseño{
         font-size:25px;
@@ -944,7 +1148,6 @@ footer ul
         content: url("img/mslide2.jpg");
     }
     #image-carrusel3{
-       
         content: url("img/mslide3.jpg");
     }
 

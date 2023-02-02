@@ -1,4 +1,4 @@
-
+$(document).ready(listo);
 
 function listo()
 {
@@ -22,6 +22,28 @@ function listo()
         })
     })
 }
+
+//funcion mostrar/ocultar formulario
+
+const formulario = document.querySelector("#formulario");
+const btn_desplegar = document.querySelector("#btn_desplegar");
+var cont=0;
+
+  function aparecer(){
+      if(cont==0)
+      {
+        formulario.style.opacity="1";
+        formulario.style.transition="opacity 1s"
+        cont=1;
+      }
+      else{formulario.style.opacity="0";
+        cont=0;
+      }
+    }
+
+btn_desplegar.addEventListener("click",aparecer,true);
+
+
 
 
 //funcion dise;o apartamentos

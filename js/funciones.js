@@ -80,7 +80,7 @@ function zona(imagen) {
 var etapa_2 = document.getElementById("etapa3");
  var etapa_3 = document.getElementById("etapa4");
  var etapa_4 = document.getElementById("etapa5");
-
+ document.getElementsByClassName
 
 function bloque1(){
   etapa_1.style.display = "block"; 
@@ -119,3 +119,24 @@ function bloque4(){
 
 
 
+
+var unidad1= document.getElementById("unidadetapa1");
+var unidad3= document.getElementById("unidadetapa3");
+var unidad4= document.getElementById("unidadetapa4");
+var unidad5= document.getElementById("unidadetapa5");
+
+function izquierda(){
+  unidad1.style.transform = 'translate(0, 0)';
+  unidad3.style.transform = 'translate(0, 0)';
+  unidad4.style.transform = 'translate(0, 0)';
+  unidad5.style.transform = 'translate(0, 0)';
+ 
+}
+
+function derecha(){
+  unidad1.style.transform = 'translate(-465px, 0)';
+  unidad3.style.transform = 'translate(-465px, 0)';
+  unidad4.style.transform = 'translate(-465px, 0)';
+  unidad5.style.transform = 'translate(-465px, 0)';
+  
+}

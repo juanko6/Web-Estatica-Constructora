@@ -16,7 +16,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-
+   
 
 </head>
 
@@ -79,7 +79,7 @@
                     </div>
                 </form>
             </div>
-
+            <img src="img/slideh.jpg">
             <div class="precio">
                 <div>
                     <h3 class="robotothin">Precios desde</h3>
@@ -321,8 +321,8 @@
                 <div id="unidadesenventa" class="disponibilidad espaciado ">
 
                     <div id="etapa1" style="display:none;">
-
-                        <div class="unidadetapa">
+                        <div class="boton_oculto"> <button onclick="izquierda()">torre 1</button> <button onclick="derecha()">torre 2</button></div>
+                        <div class="unidadetapa" id="unidadetapa1">
                             <div>
                                 <h2 class="centrartorre">TORRE 1</h2>
                                 <div class="bloque">
@@ -384,7 +384,7 @@
                                 </div>
 
                             </div>
-                            <div>
+                            <div id="torre2">
                                 <h2 class="centrartorre">TORRE 2</h2>
                                 <div class="bloque">
                                     <div class="box piso">Piso 9</div>
@@ -449,9 +449,10 @@
 
 
                     <div id="etapa3" style="display:none;">
-                        <div class="unidadetapa">
+                        <div class="boton_oculto"> <button onclick="izquierda()">torre 4</button> <button onclick="derecha()">torre 5</button></div>
+                        <div class="unidadetapa" id="unidadetapa3" >
 
-                            <div>
+                            <div id="torre4">
                                 <h2 class="centrartorre">TORRE 4</h2>
                                 <div class="bloque">
                                     <div class="box piso">Piso 9</div>
@@ -511,7 +512,7 @@
 
                                 </div>
                             </div>
-                            <div>
+                            <div id="torre5">
                                 <h2 class="centrartorre">TORRE 5</h2>
                                 <div class="bloque">
                                     <div class="box piso">Piso 9</div>
@@ -574,8 +575,9 @@
                     </div>
 
                     <div id="etapa4">
-                        <div class="unidadetapa">
-                            <div>
+                        <div class="boton_oculto"> <button onclick="izquierda()">torre 6</button> <button onclick="derecha()">torre 7</button></div>
+                        <div class="unidadetapa" id="unidadetapa4" >
+                            <div id="torre6">
                                 <h2 class="centrartorre">TORRE 6</h2>
                                 <div class="bloque">
                                     <div class="box piso">Piso 9</div>
@@ -636,7 +638,7 @@
                                 </div>
 
                             </div>
-                            <div>
+                            <div id="torre7">
                                 <h2 class="centrartorre">TORRE 7</h2>
                                 <div class="bloque">
                                     <div class="box piso">Piso 9</div>
@@ -702,9 +704,9 @@
 
                     <div id="etapa5" style="display:none;">
 
-
-                        <div class="unidadetapa">
-                            <div>
+                        <div class="boton_oculto" > <button onclick="izquierda()">torre 8</button> <button onclick="derecha()">torre 9</button></div>
+                        <div class="unidadetapa" id="unidadetapa5   " >
+                            <div id="torre8">
                                 <h2 class="centrartorre">TORRE 8</h2>
                                 <div class="bloque">
                                     <div class="box piso">Piso 9</div>
@@ -764,7 +766,7 @@
 
                                 </div>
                             </div>
-                            <div>
+                            <div id="torre9">
                                 <h2 class="centrartorre">TORRE 9</h2>
                                 <div class="bloque">
                                     <div class="box piso">Piso 9</div>
@@ -938,6 +940,7 @@
     </script>
     <script src="js/jquery.js"></script>
     <script src="js/funciones.js">
+    
     </script>
 </body>
 

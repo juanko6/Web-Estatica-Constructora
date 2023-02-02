@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/nogalesd/public_html/app.nogalesdelaflorida.com/
-    - /bin/rsync -r -av /home2/nogalesd/repositories/appnogales/css/ $DEPLOYPATH
+    - /bin/rsync -r -av --exclude=".*" /home2/nogalesd/repositories/appnogales/ $DEPLOYPATH
